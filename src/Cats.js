@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Photo from './Photo'
-import cat1 from './Cat01.jpg'
-import cat2 from './Cat02.jpeg'
+import cat1 from './assets/Cat01.jpg'
+import cat2 from './assets/Cat02.jpeg'
 
 export default class Cats extends React.Component {
     
