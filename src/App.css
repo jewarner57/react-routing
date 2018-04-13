@@ -68,3 +68,26 @@
     from {background-color:black;}
     to {background-color: #555}
 }
+
+.selected {
+    background-color: gray;
+}
+
+.hideImage {
+    display: none;
+}
+
+.enlargedImage {
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background-color:rgb(0, 0, 0, 0.8);
+    left:0;
+    top:0;
+    
+}
+
+.enlargedImage img {
+    width:40%;
+    margin-top:10%;
+}

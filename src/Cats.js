@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Photo from './Photo'
 import cat1 from './Cat01.jpg'
@@ -8,14 +8,14 @@ export default class Cats extends React.Component {
     
     constructor(props) {
         super(props);
-        
+
     }
     
     render() {
         
         return (
                 
-                <div class="imageWrapper">
+                <div className="imageWrapper">
                     <Photo source={cat1} />
                     <Photo source={cat2} />
                 </div>
